@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-svg-sprite-names-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add types for your svg sprite icon names automatically.",
   "author": "Claudia Benito (https://www.claudiabdm.com)",
   "private": false,
