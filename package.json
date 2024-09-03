@@ -17,6 +17,17 @@
   "bugs": {
     "url": "https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript/issues"
   },
+  "keywords": [
+    "vite",
+    "plugin",
+    "svg",
+    "sprite",
+    "types",
+    "typescript",
+    "generate",
+    "icon",
+    "names"
+  ],
   "type": "module",
   "source": "src/index.ts",
   "main": "src/index.ts",
