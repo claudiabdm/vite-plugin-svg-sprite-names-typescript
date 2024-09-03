@@ -1,6 +1,6 @@
 # vite-plugin-svg-sprite-names-typescript
 
-Add types for svg icon names from a SVG sprite file and generates an array of strings with the names. 
+Add types for svg's id from a SVG sprite file and generates an array of strings with the names. 
 
 > [!NOTE]
 > This plugin does not generate the SVG Sprite, you will need to provide one. 
