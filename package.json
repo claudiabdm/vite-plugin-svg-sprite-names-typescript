@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-svg-sprite-names-typescript",
+  "version": "1.0.0",
+  "description": "Add types for your svg sprite icon names automatically.",
+  "author": "Claudia Benito (https://www.claudiabdm.com)",
+  "private": false,
+  "workspaces": [
+    "src",
+    "example-vite-project"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript/issues"
+  },
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "src/index.ts",
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/xml2js": "^0.4.14",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
