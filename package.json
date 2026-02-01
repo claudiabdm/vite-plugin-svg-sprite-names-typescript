@@ -31,18 +31,16 @@
   "type": "module",
   "source": "src/index.ts",
   "files": [
-    "dist"
+    "src"
   ],
   "exports": {
-    "types": "./dist/index.d.ts",
-    "require": "./dist/index.cjs",
-    "default": "./dist/index.esm.js"
+    "types": "./src/index.d.ts",
+    "require": "./src/index.js",
+    "default": "./src/index.js"
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.esm.js",
+  "main": "./src/index.js",
   "scripts": {
-    "build": "microbundle --target node --format modern,esm,cjs",
-    "dev": "microbundle watch",
+    "build": "tsc",
     "publish": "npm run build && npm publish"
   },
   "dependencies": {
@@ -50,8 +48,7 @@
   },
   "devDependencies": {
     "@types/xml2js": "^0.4.14",
-    "microbundle": "^0.15.1",
-    "typescript": "^5.5.3<",
-    "vite": "^5.4.1"
+    "typescript": "^5.5.3",
+    "vite": "^7.3.1"
   }
 }

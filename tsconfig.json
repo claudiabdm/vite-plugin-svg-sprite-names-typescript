@@ -15,12 +15,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "src/index.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "example-vite-project",
-  ],
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules", "dist", "example-vite-project"]
 }
