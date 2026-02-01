@@ -12,7 +12,7 @@
   "homepage": "https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript"
+    "url": "git+https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript.git"
   },
   "bugs": {
     "url": "https://github.com/claudiabdm/vite-plugin-svg-sprite-names-typescript/issues"
